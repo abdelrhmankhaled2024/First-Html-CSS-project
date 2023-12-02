@@ -1,0 +1,268 @@
+*{
+    margin:0;
+}
+#home {
+    height: 80vh;
+    background-image: url('../images/drew-coffman-1872.jpg');
+    background-size: 100% 100%;
+    position: relative;
+}
+.navbar{
+    position: sticky;
+    top: 0;
+}
+.navbar img{
+float:left;
+width: 8vw;
+margin: 1vh 20vw;
+}ذذذ
+.navbar ul{
+    float: right;
+    list-style: none;
+    margin-right: 20vw;
+}
+.navbar ul a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 20px;
+}
+#clear-fix{
+    clear: both;
+}
+#home .caption{
+text-align: center;
+margin-top: 25vh;
+}
+#home .caption .button1{
+color: aliceblue;
+background-color: #8E7754;
+padding: 20px;
+border-radius: 15px;
+border:none;
+}
+#home .caption .button2{
+    color: aliceblue;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 15px;
+    border:none;
+    }
+   
+    #home .caption .button1:hover{
+        background-color: aliceblue;
+        color: black;
+    }
+    #home .caption .button2:hover{
+        background-color: aliceblue;
+        color: black;
+    }
+    #home .caption h1{
+        padding: 50px;
+        color: #fff;
+        font-size: 50px;
+    }
+    #home .caption h3{
+        font-size: 20px;
+        color: #fff;
+    }
+    #home .caption p{
+        color: #fff;
+        font-size: 20px;
+        padding: 50px;
+    }
+    #home .who-we-are {
+        height: 70vh;
+        margin-top: 20vh;
+    }
+    #home .who-we-are img{
+        width: 30%;
+        float: left;
+        margin-left: 15vw;
+    }
+    #home .who-we-are .title{
+        width: 30%;
+        float: right;
+        margin-right:20vw ;
+    }
+    #home .who-we-are .clear-fix{
+        clear: both;
+    }
+    #home .who-we-are .title h2{
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    #home .who-we-are .title p{
+        font-size: 20px;
+        padding-top: 30px;
+        line-height: 30px;
+    }
+    #home .who-we-are .title .first,#home .who-we-are .title .second,#home .who-we-are .title .third,#home .who-we-are .title .forth{
+        padding-left: 75px;
+    }
+    #home .our-location {
+        height: 60vh;
+        background-color: #F8F8F8;
+        padding-top: 12vh;
+    }
+    #home .our-location img{
+        width: 30%;
+        float: right;
+        margin-right: 15vw;
+    }
+    #home .our-location .title{
+        width: 30%;
+        float: left;
+        margin-left:20vw ;
+    }
+    #home .our-location .clear-fix{
+        clear: both;
+    }
+    #home .our-location .title h2{
+        font-size: 30px;
+        padding-top: 50px;
+    }
+    #home .our-location .title .parag1,#home .our-location .title .parag2{
+        font-size: 20px;
+        padding-top: 50px;
+        line-height: 30px;
+    }
+    #home .our-baking{
+        height: 70vh;
+        text-align: center;
+        padding: 10vh;
+    }
+    #home .our-baking .desc-title{
+        padding-top: 5vh;
+        font-size: 16px;
+        padding-bottom: 10vh;
+    }
+    #home .our-baking .section{
+        float:left;
+        width: 33.333333%;
+        text-align: center;
+    }
+    #home .our-baking .section img{
+        width:80%;
+    }
+    #home .our-baking .section p{
+        line-height: 30px;
+    }
+    #home .contact-info{
+        height: 70vh;
+        background-color: #F8F8F8;
+    }
+    #home .contact-info .text {
+     float: left;
+     width: 35%;
+     padding-top: 12vh;
+     margin-left: 12vw;
+    }
+    #home .contact-info .iframe{
+        float: right;
+        width: 35%;
+        padding-top: 12vh;
+        margin-right: 12vw;
+    }
+    #home .contact-info .clear-fix{
+        clear: both;
+    }
+    #home .contact-info .text .title{
+       font-size: 30px;
+       }
+     #home .contact-info .text .title-details{
+     line-height: 30px;
+     padding-top: 30px;
+        }
+    #home .contact-info .text .address,#home .contact-info .text .phone1,#home .contact-info .text .phone2,#home .contact-info .text .mail{
+        line-height: 20px;
+        padding: 25px 60px;
+        }
+        #home .contact-info .text .contact-details{
+            line-height: 20px;
+            padding-top: 25px; 
+        }
+    #about{
+      background-color:#403D38;
+      height: 40vh;
+    }
+    #about h3{
+        color: #fff;
+        padding-bottom: 3vh;
+      }
+    #about p{
+        color:#969696;
+        line-height: 30px;
+      }
+    #about .about-us{
+        float: left;
+        width: 15%;
+        margin-left: 13vw;
+        margin-right: 2vw;
+        margin-top:5vh ;
+    }
+    #about .about-us .desc1,#about .about-us .desc2{
+        margin-top:2vh ;
+    }
+    #about .Why-we-are{
+        float: left;
+        width: 15%;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-top:5vh ;
+    }
+    #about .Opening-Hours{
+        float: left;
+        width: 15%;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-top:5vh ;
+    }
+    #about .Contact-Details{
+        float: left;
+        width: 15%;
+        margin-left: 2vw;
+        margin-right: 2vw;
+        margin-top:5vh ;
+    }
+    #about hr{
+        width:80
+    }
+    #about .clear-fix{
+        clear:both;
+    }
+  #end-of-site{
+    height: 30vh;
+    background-color: #353330;
+    text-align: center;
+  }
+  #end-of-site .buttons img{
+    width:2vw;
+  }
+  #end-of-site .buttons .button1,#end-of-site .buttons .button2,#end-of-site .buttons .button3,#end-of-site .buttons .button4{
+    background-color: #403D38;
+    border-radius: 50%;
+    border:none;
+  }
+  #end-of-site .buttons .button1:hover{
+    background-color: #3B5998;
+  }
+  #end-of-site .buttons .button2:hover{
+    background-color: #DD4B39;
+  }
+  #end-of-site .buttons .button3:hover{
+    background-color: #007BB5;
+  }
+  #end-of-site .buttons .button3:hover{
+    background-color: #00ACED;
+  }
+  #end-of-site .logo{
+    padding-top:5vh;
+  }
+  #end-of-site .copyrights{
+    padding-top:3vh;
+    padding-bottom:3vh;
+    color: #969696;
+  } 
